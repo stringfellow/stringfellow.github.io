@@ -11,3 +11,19 @@ img.hero {
   border-bottom-right-radius: 3px;
   border-bottom-left-radius: 3px;
 }
+
+.centered {
+  text-align: center;
+}
+
+.emoji-huge {
+  font-size: 102px;
+}
+
+.cv-text {
+  margin-top: -30px;
+}
+
+a.no-decor:hover, a.no-decor:active {
+  text-decoration: none;
+}
