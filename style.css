@@ -54,7 +54,8 @@ img.hero {
 }
 
 .doc-text {
-  margin-top: -30px;
+  margin-top: -20px;
+  font-size:20px;
 }
 
 a.no-decor:hover, a.no-decor:active {
@@ -75,6 +76,12 @@ a.no-decor:hover, a.no-decor:active {
     max-width: 100px;
     height: auto;
     margin-bottom: 40px;
+  }
+
+  .doc-text {
+    margin-top: 10px;
+    font-size:18px;
+    margin-bottom:50px;
   }
 
 }
