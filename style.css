@@ -20,8 +20,9 @@ div#logos {
   text-align: right;
 }
 
+
 div#logos a img {
-  max-height: 56px;
+ max-height: 56px;
 }
 
 h2.featurette-heading {
@@ -53,9 +54,34 @@ img.hero {
 }
 
 .doc-text {
-  margin-top: -30px;
+  margin-top: -20px;
+  font-size:20px;
 }
 
 a.no-decor:hover, a.no-decor:active {
   text-decoration: none;
+}
+
+@media(max-width:767px){
+
+  .well img, .emoji-huge {
+    width:100%;
+    height:auto;
+    max-width: 100px;
+    font-size:60px;
+  }
+
+  .img-circle {
+    width:100%;
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .doc-text {
+    margin-top: 10px;
+    font-size:18px;
+    margin-bottom:50px;
+  }
+
 }
