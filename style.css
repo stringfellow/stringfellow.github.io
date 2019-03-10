@@ -32,7 +32,21 @@ h2.featurette-heading a.github {
     float: right;
 }
 
+div.featurette img {
+    margin-top: 10px;
+}
+
 .header {
+    margin-top: 20px
+}
+
+.page-header {
+    margin-top: 0;
+}
+
+img.img-border {
+    border: solid 1px #ddd;
+    border-radius: 3px;
 }
 
 img.hero {
@@ -47,6 +61,10 @@ img.hero {
 
 .centered {
   text-align: center;
+}
+
+.emoji-big {
+  font-size: 56px;
 }
 
 .emoji-huge {
@@ -64,7 +82,7 @@ a.no-decor:hover, a.no-decor:active {
 
 @media(max-width:767px){
 
-  .well img, .emoji-huge {
+  .emoji-huge {
     width:100%;
     height:auto;
     max-width: 100px;
